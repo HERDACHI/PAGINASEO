@@ -1,0 +1,9 @@
+/* *{margin:0;pading:0;}*/
+
+h1,h3{color:red;}
+h2 {font-size:40px; color:red;}
+//p{color:blue;}
+p1{color:green;}
+p cite {color:orange;}
+p .kolor {color:purple;}
+a[href="http://www.falconmasters.com"]{color:yellow; font-size:30px}

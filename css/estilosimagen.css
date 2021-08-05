@@ -1,0 +1,7 @@
+
+body { background:url(../imagenes/blokes.jpg); /*La imagen debe estar en la carpeta css, en otro caso usar ../ para ubicarla*/
+       color:white;
+       background-repeat:no-repeat;
+       //background-attachment:fixed;
+       background-position:10px 20px;
+     }
