@@ -1,0 +1,19 @@
+<html>     
+    <head>          
+        <meta charset="UTF-8">            
+        <title> Read JSON from URL </title>		  
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>          
+     <head>     
+            <body> 
+			<div class="mypanel"> 
+			<script>
+			
+			$.getJSON('https://herdachi.github.io/PAGINASEO/rankdata.json',function
+			(rank){var scraping=`<center><h2>Data</h2><br><h2>${rank['rules']}</h2><br><center>`
+		            $(".mypanel").html(scraping);
+		           }
+	        );
+		    </script>
+			</div>
+			</body>
+			</html>
