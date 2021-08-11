@@ -1,0 +1,376 @@
+{
+    "category": {
+        "id": 1,
+        "name": "Default",
+        "parent_category_id": 1
+    },
+    "rules": [
+        {
+            "id": 9,
+            "name": "Common Keywords In Title",
+            "value": "false",
+            "user_advice": "Check if (amount of keywords in string)/(overall keywords amount) \u003e margin."
+        },
+        {
+            "id": 18,
+            "name": "Broken Images",
+            "value": "[]",
+            "user_advice": "Get a list of broken images"
+        },
+        {
+            "id": 44,
+            "name": "Disallow",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 11,
+            "name": "Phone Numbers",
+            "value": "false",
+            "user_advice": "Get telephone numbers from the document."
+        },
+        {
+            "id": 54,
+            "name": "Phone Numbers",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 37,
+            "name": "Nofollow",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 43,
+            "name": "Number of pages",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 60,
+            "name": "Vimeo Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 20,
+            "name": "Addroll",
+            "value": "false",
+            "user_advice": "This one should be executed on the main page."
+        },
+        {
+            "id": 32,
+            "name": "Googlesyndication",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 36,
+            "name": "Linkedin tracking pixel",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 39,
+            "name": "Noindex",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 38,
+            "name": "Noindex",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 12,
+            "name": "Internal Urls",
+            "value": "[]",
+            "user_advice": "Get a list of internal urls of the document"
+        },
+        {
+            "id": 28,
+            "name": "Flash",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 34,
+            "name": "h2",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 21,
+            "name": "Quicksight",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 45,
+            "name": "Email",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 48,
+            "name": "Email on free provider",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 49,
+            "name": "Google Maps",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 50,
+            "name": "Google Plus",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 61,
+            "name": "Youtube Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 15,
+            "name": "Broken Links",
+            "value": "[\"https://www.iana.org/domains/example\"]",
+            "user_advice": "Get a list of broken links"
+        },
+        {
+            "id": 51,
+            "name": "Instagram Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 55,
+            "name": "Pinterest Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 57,
+            "name": "Snapchat Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 59,
+            "name": "Twitter Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 2,
+            "name": "title",
+            "value": "true",
+            "user_advice": ""
+        },
+        {
+            "id": 31,
+            "name": "Google Remarketing",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 13,
+            "name": "External Urls",
+            "value": "[\"https://www.iana.org/domains/example\"]",
+            "user_advice": "Get a list of external urls of the document"
+        },
+        {
+            "id": 19,
+            "name": "Has Tel Link",
+            "value": "false",
+            "user_advice": "Does document have a tel: link"
+        },
+        {
+            "id": 23,
+            "name": "Bing Tracking",
+            "value": "false",
+            "user_advice": "Check if Bing Tracking is used."
+        },
+        {
+            "id": 29,
+            "name": "GDPR",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 30,
+            "name": "Google Analytics",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 53,
+            "name": "Phone Number",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 22,
+            "name": "AMP",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 47,
+            "name": "Facebook Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 8,
+            "name": "Meta Description",
+            "value": "\"\"",
+            "user_advice": "Returns document meta description"
+        },
+        {
+            "id": 14,
+            "name": "SEO Friendly",
+            "value": "true",
+            "user_advice": "Check if certain margin of internal urls do not contain special characters.\r\nmargin - minimum of seo friendly urls ratio"
+        },
+        {
+            "id": 24,
+            "name": "Canonical Header",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 46,
+            "name": "Email on own domain",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 52,
+            "name": "Linkedin Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 58,
+            "name": "Tiktok Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 33,
+            "name": "h1",
+            "value": "true",
+            "user_advice": ""
+        },
+        {
+            "id": 40,
+            "name": "Pinterest",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 56,
+            "name": "Reddit Page",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 7,
+            "name": "Is Responsive",
+            "value": "true",
+            "user_advice": "Return true if page is responsive"
+        },
+        {
+            "id": 25,
+            "name": "Canonical Link",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 27,
+            "name": "Facebook Tracking Pixel",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 35,
+            "name": "Images with alt",
+            "value": "false",
+            "user_advice": "Images with alt tag / without \u003e= 75"
+        },
+        {
+            "id": 41,
+            "name": "Revcontent",
+            "value": "false",
+            "user_advice": ""
+        },
+        {
+            "id": 42,
+            "name": "Taboola",
+            "value": "false",
+            "user_advice": ""
+        }
+    ],
+    "categories": [
+        {
+            "category": {
+                "id": 2,
+                "name": "Category 1",
+                "parent_category_id": 1
+            },
+            "rules": [
+                {
+                    "id": 3,
+                    "name": "Word Count",
+                    "value": "28",
+                    "user_advice": "Returns amount of words on the document."
+                }
+            ],
+            "categories": [
+                {
+                    "category": {
+                        "id": 4,
+                        "name": "Category 3",
+                        "parent_category_id": 2
+                    },
+                    "rules": [
+                        {
+                            "id": 5,
+                            "name": "Most Common Keyword Combinations",
+                            "value": "[{\"keyword\":[\"Example\",\"Domain\"],\"count\":1},{\"keyword\":[\"Domain\",\"This\"],\"count\":1},{\"keyword\":[\"This\",\"domain\"],\"count\":1},{\"keyword\":[\"domain\",\"is\"],\"count\":1}]",
+                            "user_advice": "stopWordsList - stop words that we should ignore\r\namountOfKeywords - amount of words in the combination\r\namountOfCombos - amount of keyword combinations to return"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Document Size",
+                            "value": "1220",
+                            "user_advice": "This function will return the byte size of any UTF-8 string you pass to it."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": {
+                "id": 3,
+                "name": "Category 2",
+                "parent_category_id": 1
+            },
+            "rules": [
+                {
+                    "id": 4,
+                    "name": "Most Common Keywords",
+                    "value": "[{\"keyword\":\"domain\",\"count\":2},{\"keyword\":\"for\",\"count\":2},{\"keyword\":\"use\",\"count\":2},{\"keyword\":\"Example\",\"count\":1}]",
+                    "user_advice": "Change stopWordsList constant to ignore words, change amountOfKeywords constant to return different amount of keywords."
+                }
+            ]
+        }
+    ]
+}
